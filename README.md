@@ -1,5 +1,5 @@
 
-# 🧠 Mini Character-Level Language Model (From Scratch)
+# Sample - Large Language Model (From Scratch)
 
 This repository demonstrates how a basic character-level language model pipeline works using a very small dataset.
 
@@ -11,7 +11,7 @@ is processed step-by-step through the pipeline.
 
 ---
 
-## 📌 Pipeline Overview
+##  Pipeline Overview
 
 Text
 ↓
@@ -27,7 +27,7 @@ Probability Distribution (Softmax)
 
 ---
 
-## 📂 Dataset and Input
+##  Dataset and Input
 
 Dataset:
 "hello world"
@@ -187,7 +187,7 @@ Final prediction:
 
 ---
 
-## 🎯 What This Project Demonstrates
+##  Main Aim:
 
 • How text becomes numbers  
 • How embeddings convert tokens into vector space  
