@@ -1,8 +1,8 @@
-# 📘 Fine-Tuning LLMs: Quantization & Modes
+#  Fine-Tuning LLMs: Quantization & Modes
 
 ------------------------------------------------------------------------
 
-## 1️⃣ Introduction to Quantization
+## 1️.  Introduction to Quantization
 
 Quantization is the process of reducing the numerical precision of model
 parameters (weights and activations) to make Large Language Models
@@ -26,7 +26,7 @@ Lower precision leads to:
 
 ------------------------------------------------------------------------
 
-## 2️⃣ Why Quantization is Important
+## 2️. Why Quantization is Important
 
 Example for a 7B parameter model:
 
@@ -45,7 +45,7 @@ That is a **75% memory reduction**.
 
 ------------------------------------------------------------------------
 
-## 3️⃣ Full Precision vs Half Precision
+## 3️. Full Precision vs Half Precision
 
 ### FP32 (Full Precision)
 
@@ -62,7 +62,7 @@ That is a **75% memory reduction**.
 
 ------------------------------------------------------------------------
 
-## 4️⃣ Quantization Mathematics
+## 4️. Quantization Mathematics
 
 ### Scale Formula
 
@@ -80,9 +80,9 @@ Where:
 
 ------------------------------------------------------------------------
 
-## 5️⃣ Types of Quantization
+## 5️. Types of Quantization
 
-### 1️⃣ Symmetric Quantization
+### 1️. Symmetric Quantization
 
 -   Range centered at zero\
 -   ZeroPoint = 0\
@@ -98,7 +98,7 @@ Example:
 
 ------------------------------------------------------------------------
 
-### 2️⃣ Asymmetric Quantization
+### 2️. Asymmetric Quantization
 
 -   Range not centered at zero\
 -   Uses ZeroPoint\
@@ -113,11 +113,11 @@ Example:
 
 ------------------------------------------------------------------------
 
-# 6️⃣ Modes of Quantization
+# 6️. Modes of Quantization
 
 ------------------------------------------------------------------------
 
-## 🔹 Post-Training Quantization (PTQ)
+## --> Post-Training Quantization (PTQ)
 
 Applied after training.
 
@@ -144,7 +144,7 @@ E --> F[Deploy Model]
 
 ------------------------------------------------------------------------
 
-## 🔹 Quantization Aware Training (QAT)
+## --> Quantization Aware Training (QAT)
 
 Quantization simulated during training.
 
@@ -170,7 +170,7 @@ D --> E[Export INT8 Model]
 
 ------------------------------------------------------------------------
 
-# 7️⃣ PTQ vs QAT Comparison
+# 7️. PTQ vs QAT Comparison
 
   Feature      PTQ      QAT
   ------------ -------- ---------
@@ -181,7 +181,7 @@ D --> E[Export INT8 Model]
 
 ------------------------------------------------------------------------
 
-# 8️⃣ Quantization in LLM Fine-Tuning
+# 8️. Quantization in LLM Fine-Tuning
 
 Modern fine-tuning combines quantization with:
 
@@ -204,7 +204,7 @@ QLoRA enables fine-tuning 7B--70B models on a single GPU.
 
 ------------------------------------------------------------------------
 
-# 9️⃣ Symmetric vs Asymmetric Diagram
+# 9️. Symmetric vs Asymmetric Diagram
 
 ``` mermaid
 flowchart LR
@@ -214,7 +214,7 @@ C[Xmin -------- Xmax] --> D[0 -------- 255]
 
 ------------------------------------------------------------------------
 
-# 🔟 Complete Quantized Fine-Tuning Architecture
+# 10 .Complete Quantized Fine-Tuning Architecture
 
 ``` mermaid
 flowchart TD
@@ -227,7 +227,7 @@ E --> F[Deployment Mobile / Edge / Cloud]
 
 ------------------------------------------------------------------------
 
-# 🚀 Conclusion
+#  Conclusion
 
 Quantization is essential for:
 
