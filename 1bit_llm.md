@@ -126,9 +126,12 @@ large-scale deployment - Extreme model compression limits
 
 ------------------------------------------------------------------------
 
-# 📌 BitNet Paper Link
+## 📌 Research Attribution
 
-BitNet: Scaling 1-bit Transformers for Large Language Models\
+BitNet was proposed by researchers at Microsoft Research.
+
+Paper:
+BitNet: Scaling 1-bit Transformers for Large Language Models  
 https://arxiv.org/abs/2310.11453
 
 ------------------------------------------------------------------------
