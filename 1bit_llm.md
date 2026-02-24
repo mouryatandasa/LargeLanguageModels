@@ -8,7 +8,7 @@ quantization techniques.
 
 ------------------------------------------------------------------------
 
-# 1️⃣ Introduction to Quantization
+# 1️. Introduction to Quantization
 
 Quantization reduces the number of bits used to represent model weights
 and activations.
@@ -22,7 +22,7 @@ inference efficiency - Enable deployment on limited hardware
 
 ------------------------------------------------------------------------
 
-# 2️⃣ What is a 1-Bit LLM?
+# 2️. What is a 1-Bit LLM?
 
 A 1-bit LLM constrains model weights to:
 
@@ -36,7 +36,7 @@ weight - ≈ 16× memory reduction
 
 ------------------------------------------------------------------------
 
-# 3️⃣ BitNet Overview
+# 3️. BitNet Overview
 
 BitNet is a 1-bit Transformer architecture trained from scratch.
 
@@ -47,7 +47,7 @@ Variant: BitNet b1.58 uses ternary weights: W ∈ {-1, 0, +1}
 
 ------------------------------------------------------------------------
 
-# 4️⃣ Training Challenges in 1-Bit Models
+# 4️. Training Challenges in 1-Bit Models
 
 Binary weights are non-differentiable.
 
@@ -60,7 +60,7 @@ forward pass binarized.
 
 ------------------------------------------------------------------------
 
-# 5️⃣ Mathematical Representation
+# 5️. Mathematical Representation
 
 Forward pass: W_binary = sign(W_real)
 
@@ -74,7 +74,7 @@ Scaling improves representational capacity.
 
 ------------------------------------------------------------------------
 
-# 6️⃣ Computational Benefits
+# 6️. Computational Benefits
 
 1-bit models replace multiplications with additions/subtractions.
 
@@ -86,7 +86,7 @@ This reduces: - Compute cost - Energy consumption - Hardware complexity
 
 ------------------------------------------------------------------------
 
-# 7️⃣ Comparison: 4-bit vs 1-bit
+# 7️. Comparison: 4-bit vs 1-bit
 
   Aspect           4-bit (QLoRA)            1-bit (BitNet)
   ---------------- ------------------------ -------------------------
@@ -97,7 +97,7 @@ This reduces: - Compute cost - Energy consumption - Hardware complexity
 
 ------------------------------------------------------------------------
 
-# 8️⃣ Advantages of 1-Bit LLMs
+# 8️. Advantages of 1-Bit LLMs
 
 -   Extreme memory compression
 -   Faster inference (hardware efficient)
@@ -106,7 +106,7 @@ This reduces: - Compute cost - Energy consumption - Hardware complexity
 
 ------------------------------------------------------------------------
 
-# 9️⃣ Limitations
+# 9️. Limitations
 
 -   Training instability
 -   Accuracy trade-offs
@@ -115,7 +115,7 @@ This reduces: - Compute cost - Energy consumption - Hardware complexity
 
 ------------------------------------------------------------------------
 
-# 🔟 Why 1-Bit LLMs Matter
+# 10. Why 1-Bit LLMs Matter
 
 As LLMs scale to billions/trillions of parameters:
 
@@ -126,7 +126,7 @@ large-scale deployment - Extreme model compression limits
 
 ------------------------------------------------------------------------
 
-## 📌 Research Attribution
+## ----> Research Attribution
 
 BitNet was proposed by researchers at Microsoft Research.
 
@@ -136,7 +136,7 @@ https://arxiv.org/pdf/2310.11453
 
 ------------------------------------------------------------------------
 
-# 📚 Conclusion
+# ----> Conclusion
 
 1-bit LLMs represent the frontier of model compression research.
 
@@ -146,4 +146,4 @@ system design
 
 ------------------------------------------------------------------------
 
-Author: Mourya Tandasa
+By :Mourya Tandasa
