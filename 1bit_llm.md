@@ -132,7 +132,7 @@ BitNet was proposed by researchers at Microsoft Research.
 
 Paper:
 BitNet: Scaling 1-bit Transformers for Large Language Models  
-https://arxiv.org/abs/2310.11453
+https://arxiv.org/pdf/2310.11453
 
 ------------------------------------------------------------------------
 
